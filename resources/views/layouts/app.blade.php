@@ -23,6 +23,7 @@
             </div>
 
             <div class="col-3">
+                @include('inc.messages')
                 @include('inc.aside')
             </div>
         </div>
