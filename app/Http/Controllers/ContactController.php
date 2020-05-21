@@ -25,4 +25,12 @@ class ContactController extends Controller
 
         return redirect('contact')->with('success', ['Сообщение оставлено. Мы свяжемся с вами в ближайшее время']);
     }
+
+    public function allData() {
+        $contact = new Contact();
+
+
+        // $contact->orderBy('id', 'desc')->take(12)->get()
+        return view('messages', ['data' => $contact->where('subject', '=', 'Subject')->get()]);
+    }
 }
