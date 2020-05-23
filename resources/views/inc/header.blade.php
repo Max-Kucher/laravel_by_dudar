@@ -4,7 +4,7 @@
     <a class="p-2 text-dark" href="{{ route('home') }}">Home</a>
     <a class="p-2 text-dark" href="{{ route('about') }}">About</a>
     <a class="p-2 text-dark" href="{{ route('contact') }}">Contact</a>
-    <a class="p-2 text-dark" href="{{ route('contact-data') }}">Messages</a>
+    <a class="p-2 text-dark" href="{{ route('contact-data-all') }}">Messages</a>
   </nav>
   <a class="btn btn-outline-primary" href="#">Sign up</a>
 </div>
